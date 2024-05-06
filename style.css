@@ -107,13 +107,18 @@ button {
 }
 #call-to-action button {
   border: 2px solid white;
-  margin-left: auto;
+  margin: auto;
+  align-self: center;
+}
+
+#call-to-action > .content > div {
+  flex: 1 1 auto;
 }
 
 .content {
-  max-width: 70%;
+  max-width: 65%;
   margin: 0 auto;
-  flex: 0 1 70%;
+  flex: 0 1 65%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -170,4 +175,8 @@ button {
 
 #quote > .content > p{
     align-self: flex-end;
+}
+
+h4 {
+  font-size: 24px;
 }
